@@ -1,0 +1,77 @@
+$date
+        2022-Aug-09 18:37:22
+$end
+$version
+        Vivado v2020.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " BD_i/system_ila_0/inst/net_slot_0_axis_tdata [31:0] $end
+$var reg 4 B BD_i/system_ila_0/inst/net_slot_0_axis_tkeep [3:0] $end
+$var reg 1 F BD_i/system_ila_0/inst/net_slot_0_axis_tvalid $end
+$var reg 1 G BD_i/system_ila_0/inst/net_slot_0_axis_tready $end
+$var reg 1 H BD_i/system_ila_0/inst/net_slot_0_axis_tlast $end
+$var reg 32 I BD_i/system_ila_0/inst/net_slot_1_axis_tdata [31:0] $end
+$var reg 4 i BD_i/system_ila_0/inst/net_slot_1_axis_tstrb [3:0] $end
+$var reg 1 m BD_i/system_ila_0/inst/net_slot_1_axis_tvalid $end
+$var reg 1 n BD_i/system_ila_0/inst/net_slot_1_axis_tready $end
+$var reg 1 o BD_i/system_ila_0/inst/net_slot_1_axis_tlast $end
+$var reg 32 p BD_i/system_ila_0/inst/net_slot_2_axis_tdata [31:0] $end
+$var reg 1 2" BD_i/system_ila_0/inst/net_slot_2_axis_tvalid $end
+$var reg 1 3" BD_i/system_ila_0/inst/net_slot_2_axis_tready $end
+$var reg 1 4" BD_i/system_ila_0/inst/net_slot_2_axis_tlast $end
+$var reg 32 5" BD_i/system_ila_0/inst/net_slot_3_axis_tdata [31:0] $end
+$var reg 4 U" BD_i/system_ila_0/inst/net_slot_3_axis_tstrb [3:0] $end
+$var reg 1 Y" BD_i/system_ila_0/inst/net_slot_3_axis_tvalid $end
+$var reg 1 Z" BD_i/system_ila_0/inst/net_slot_3_axis_tready $end
+$var reg 1 [" BD_i/system_ila_0/inst/net_slot_3_axis_tlast $end
+$var reg 3 \" Interface__i1_s0___axi_dma_0_M_AXIS_MM2S_ [2:0] $end
+$var reg 3 _" Interface__i1_s1___SEL_AXI_IN_0_AXI_OUT1_ [2:0] $end
+$var reg 3 b" Interface__i1_s2___ms2xs_0_DOUT_AXIS_ [2:0] $end
+$var reg 3 e" Interface__i1_s3___SEL_AXI_OUT_0_AXI_OUT_ [2:0] $end
+$var reg 3 h" T_Channel__i1_s0___axi_dma_0_M_AXIS_MM2S_ [2:0] $end
+$var reg 3 k" T_Channel__i1_s1___SEL_AXI_IN_0_AXI_OUT1_ [2:0] $end
+$var reg 3 n" T_Channel__i1_s2___ms2xs_0_DOUT_AXIS_ [2:0] $end
+$var reg 3 q" T_Channel__i1_s3___SEL_AXI_OUT_0_AXI_OUT_ [2:0] $end
+$var reg 1 t" _TRIGGER $end
+$var reg 1 u" _WINDOW $end
+$var reg 1 v" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000000001100001111100 "
+b1111 B
+1F
+0G
+0H
+b1000000000001100001111100 I
+b1111 i
+1m
+0n
+0o
+b100110001011 p
+12"
+03"
+04"
+b100110001011 5"
+b1111 U"
+1Y"
+0Z"
+0["
+b11 \"
+b11 _"
+b11 b"
+b11 e"
+b11 h"
+b11 k"
+b11 n"
+b11 q"
+0t"
+1u"
+0v"
+$end
+#10
+1t"

@@ -1,0 +1,14 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 12c4313bf4bb4b4abbf5d3848cd1b6e7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ms2xs_ip_tb_behav xil_defaultlib.ms2xs_ip_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'ms2xs_mult11bit_v1_0' does not have a parameter named D_WIDTH [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/MS2SX_IP_tb.v:31]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'addr_h_w' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/Mems.v:141]
+WARNING: [VRFC 10-5021] port 'dout_axis_aclk' is not connected on this instance [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/MS2SX_IP_tb.v:31]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/axis_in.v:80]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/axis_out.v:114]
+WARNING: [VRFC 10-3705] select index -1 into 'CW' is out of bounds [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/AU_11x11.v:79]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
