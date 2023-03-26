@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct  9 14:11:01 2022
+# Process ID: 15692
+# Current directory: C:/Users/erosc/Desktop/Vivado/ms2xs_mult11bit_v1_0_project/ms2xs_mult11bit_v1_0_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent47132 C:\Users\erosc\Desktop\Vivado\ms2xs_mult11bit_v1_0_project\ms2xs_mult11bit_v1_0_project\ms2xs_mult11bit_v1_0_project.xpr
+# Log file: C:/Users/erosc/Desktop/Vivado/ms2xs_mult11bit_v1_0_project/ms2xs_mult11bit_v1_0_project/vivado.log
+# Journal file: C:/Users/erosc/Desktop/Vivado/ms2xs_mult11bit_v1_0_project/ms2xs_mult11bit_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/erosc/Desktop/Vivado/ms2xs_mult11bit_v1_0_project/ms2xs_mult11bit_v1_0_project/ms2xs_mult11bit_v1_0_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation

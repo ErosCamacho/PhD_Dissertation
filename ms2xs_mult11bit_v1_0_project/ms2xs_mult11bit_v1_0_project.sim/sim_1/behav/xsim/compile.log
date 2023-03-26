@@ -1,0 +1,2 @@
+ERROR: [XSIM 43-3268] Logical library name '"../../../../../../MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/ms2xs_mult11bit_1.0/src/AU_11x11.v"' should not contain white space, new line, /, \, = or .
+ERROR: [XSIM 43-3217] ms2xs_mult11bit_v1_0_vlog.prj (line 2): Incorrect project file syntax. Correct syntax is one of: vhdl <worklib> <file>, verilog <worklib> <file> [<file> ...] [[-d <macro>] ...] [[-i <include>] ...], or NOSORT. Presence of NOSORT on a line of its own disables file order sorting.
