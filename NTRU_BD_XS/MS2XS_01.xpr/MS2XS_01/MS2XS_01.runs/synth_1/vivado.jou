@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 10 00:09:13 2022
+# Process ID: 25504
+# Current directory: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.runs/synth_1
+# Command line: vivado.exe -log BD_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BD_wrapper.tcl
+# Log file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.runs/synth_1/BD_wrapper.vds
+# Journal file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BD_wrapper.tcl -notrace

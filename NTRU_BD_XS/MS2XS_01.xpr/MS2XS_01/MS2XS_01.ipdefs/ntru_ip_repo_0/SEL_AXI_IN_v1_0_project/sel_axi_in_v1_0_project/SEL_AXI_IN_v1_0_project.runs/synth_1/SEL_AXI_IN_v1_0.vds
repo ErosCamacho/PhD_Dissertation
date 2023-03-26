@@ -1,0 +1,212 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Aug  9 20:04:18 2022
+# Process ID: 34096
+# Current directory: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log SEL_AXI_IN_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SEL_AXI_IN_v1_0.tcl
+# Log file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.runs/synth_1/SEL_AXI_IN_v1_0.vds
+# Journal file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SEL_AXI_IN_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.cache/ip 
+Command: synth_design -top SEL_AXI_IN_v1_0 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27244
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1088.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SEL_AXI_IN_v1_0' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:4]
+	Parameter C_AXI_IN_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT1_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT1_START_COUNT bound to: 32 - type: integer 
+	Parameter C_AXI_OUT2_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT2_START_COUNT bound to: 32 - type: integer 
+	Parameter C_AXI_OUT3_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT3_START_COUNT bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SEL_AXI_IN_v1_0' (1#1) [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1088.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+WARNING: [Synth 8-327] inferring latch for variable 'reg_sel_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:76]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out1_tvalid_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:101]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out1_tdata_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:103]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out1_tstrb_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:104]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out1_tlast_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:105]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out2_tvalid_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:93]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out2_tdata_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:95]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out2_tstrb_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:96]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out2_tlast_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:97]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out3_tvalid_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:117]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out3_tdata_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:119]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out3_tstrb_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:120]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_out3_tlast_reg' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0/hdl/SEL_AXI_IN_v1_0.v:121]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1090.629 ; gain = 2.035
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1091.539 ; gain = 2.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1091.719 ; gain = 3.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     2|
+|2     |LUT1 |     2|
+|3     |LUT2 |     2|
+|4     |LUT4 |     1|
+|5     |LUT5 |     1|
+|6     |LD   |   114|
+|7     |LDC  |     2|
+|8     |IBUF |    42|
+|9     |OBUF |   117|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   283|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1093.543 ; gain = 4.949
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1106.605 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 116 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 38 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1209.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 116 instances were transformed.
+  LD => LDCE: 76 instances
+  LD => LDCE (inverted pins: G): 38 instances
+  LDC => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1209.277 ; gain = 120.684
+INFO: [Common 17-1381] The checkpoint 'C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_v1_0_project/sel_axi_in_v1_0_project/SEL_AXI_IN_v1_0_project.runs/synth_1/SEL_AXI_IN_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SEL_AXI_IN_v1_0_utilization_synth.rpt -pb SEL_AXI_IN_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  9 20:04:44 2022...

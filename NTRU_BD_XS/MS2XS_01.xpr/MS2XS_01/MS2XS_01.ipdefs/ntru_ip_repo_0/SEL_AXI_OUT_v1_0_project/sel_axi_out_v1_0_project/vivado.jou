@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 10 10:41:04 2022
+# Process ID: 11316
+# Current directory: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3668 C:\Users\erosc\Desktop\Vivado\MS2XS_01.xpr\MS2XS_01\MS2XS_01.ipdefs\ntru_ip_repo_0\SEL_AXI_OUT_v1_0_project\sel_axi_out_v1_0_project\SEL_AXI_OUT_v1_0_project.xpr
+# Log file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/vivado.log
+# Journal file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/SEL_AXI_OUT_v1_0_project.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1

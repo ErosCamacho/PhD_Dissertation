@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 10 10:41:04 2022
+# Process ID: 11316
+# Current directory: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3668 C:\Users\erosc\Desktop\Vivado\MS2XS_01.xpr\MS2XS_01\MS2XS_01.ipdefs\ntru_ip_repo_0\SEL_AXI_OUT_v1_0_project\sel_axi_out_v1_0_project\SEL_AXI_OUT_v1_0_project.xpr
+# Log file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/vivado.log
+# Journal file: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/SEL_AXI_OUT_v1_0_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/SEL_AXI_OUT_v1_0_project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_IN_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.641 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+[Wed Aug 10 10:46:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_v1_0_project/sel_axi_out_v1_0_project/SEL_AXI_OUT_v1_0_project.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1309.020 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1395.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1585.336 ; gain = 496.695
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: SEL_AXI_OUT_v1_0
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2115.219 ; gain = 87.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SEL_AXI_OUT_v1_0' [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_1.0/hdl/SEL_AXI_OUT_v1_0.v:4]
+	Parameter C_AXI_IN1_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_IN2_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_IN3_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_OUT_START_COUNT bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SEL_AXI_OUT_v1_0' (1#1) [C:/Users/erosc/Desktop/Vivado/MS2XS_01.xpr/MS2XS_01/MS2XS_01.ipdefs/ntru_ip_repo_0/SEL_AXI_OUT_1.0/hdl/SEL_AXI_OUT_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2159.504 ; gain = 131.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2159.504 ; gain = 131.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2159.504 ; gain = 131.781
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2159.504 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2213.984 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2324.199 ; gain = 296.477
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2324.199 ; gain = 296.477
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 10 11:18:18 2022...
