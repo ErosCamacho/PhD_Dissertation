@@ -1,0 +1,77 @@
+ 
+ --- INICIALIZACION HARDWARE --- 
+  
+ --- INICIO TESTS --- 
+ 
+ --- TEST 1 --- 
+  	 sample_fg(f,g,seed) 	 	 ... 	 (  2276 us.) 
+  	 poly_S3_inv(invf_mod3, f) 	 ... 	 (337862 us.) 
+  	 poly_Z3_to_Zq 	 	 	 ... 	 (    61 us.) 
+  	 poly_Rq_mul(gf, g, f) 	 	 ... 	 ( 14518 us.) 
+  	 poly_Rq_inv(invgf, gf) 	 ... 	 (343861 us.) 
+  	 poly_Rq_mul / poly_Sq_mul 	 ... 	 ( 29079 us.) 
+  	 poly_Rq_mul / poly_Sq_mul 	 ... 	 ( 29073 us.) 
+  	 randombytes sk 	 ... 	 (    33 us.) 
+  Generacion claves (pk / sk) 	 ... 	 (756851 us.) 
+  Generacion r / h / ss (SW) 	 ... 	 (  1929 us.) 
+  	 Mult. v. NTRU 3 Ronda (SW) 	 ... 	 ( 14308 us.) 
+  	 Resto Enc. v3Ronda (SW) 	 ... 	 (   113 us.) 
+  CIFRADO 3Ronda (SW) 	 	 ... 	 ( 14421 us.) 
+  	 Mult. v. NTRU Encrypt (SW) 	 ... 	 ( 26789 us.) 
+  	 Resto Enc. vEncrypt (SW) 	 ... 	 (   127 us.) 
+  CIFRADO LIBNTRU (SW) 	 	 ... 	 ( 26916 us.) 
+  	 Mult. HARDWARE (HW) 	 	 ... 	 (  2234 us.) 
+  	 Resto Enc. v. HW (SW) 	 	 ... 	 (   126 us.) 
+  CIFRADO HW (HW/SW) 	 	 ... 	 (  2360 us.) 
+  	 Rq_sum / S3_from / Z3_to_Zq  	 ... 	 (   203 us.) 
+  	 Rq_mul / Rq_to_R3 	 	 ... 	 ( 14640 us.) 
+  	 S3_from / S3_mul / S3_to 	 ... 	 ( 14752 us.) 
+  	 check_ct / check_m 	 	 ... 	 (    22 us.) 
+  	 poly_liftm 	 	 	 ... 	 (    77 us.) 
+  	 Sq_from / Sq_mul 	 	 ... 	 ( 14561 us.) 
+  	 check_r 	 	 	 ... 	 (    23 us.) 
+  	 tri_Zq_to_Z3 / S3_to 	 	 ... 	 (    53 us.) 
+  	 tri_Zq_to_Z3 / S3_to 	 	 ... 	 (   154 us.) 
+  	 shake_secret_PRF_ct 	 	 ... 	 (   452 us.) 
+  	 cmov_ss_dec 	 	 	 ... 	 (     3 us.) 
+  DESCIFRADO (SW) 	 	 ... 	 ( 44940 us.) 
+  	 Rq_sum / S3_from / Z3_to_Zq  	 ... 	 (   201 us.) 
+  	 Rq_mul (HW) / Rq_to_R3 	 	 ... 	 (  2391 us.) 
+  	 S3_from / S3_mul / S3_to 	 ... 	 ( 14766 us.) 
+  	 check_ct / check_m 	 	 ... 	 (    20 us.) 
+  	 poly_liftm 	 	 	 ... 	 (    73 us.) 
+  	 Sq_from / Sq_mul 	 	 ... 	 ( 14564 us.) 
+  	 check_r 	 	 	 ... 	 (    23 us.) 
+  	 tri_Zq_to_Z3 / S3_to 	 	 ... 	 (    54 us.) 
+  	 tri_Zq_to_Z3 / S3_to 	 	 ... 	 (   155 us.) 
+  	 shake_secret_PRF_ct 	 	 ... 	 (   452 us.) 
+  	 cmov_ss_dec 	 	 	 ... 	 (     4 us.) 
+  DESCIFRADO HW 	 	 ... 	 ( 32703 us.) 
+ 
+ Check Igualdad ENC. (SW) 	 ... 	 (    45 us.) OK 
+ Check Igualdad ENC. (HW) 	 ... 	 (    45 us.) OK 
+ 
+ Everything works OK 
+
+
+ ### --  RESULTADOS  -- ### 
+
+ VALORES MEDIOS 
+ 
+ Mult. v. NTRU 3 Ronda (SW) 	 ... 	 ( 14308 us.) 
+ Mult. v. NTRU Encrypt (SW) 	 ... 	 ( 26789 us.) 
+ Mult. v. NTRU HARDWARE (HW) 	 ... 	 (  2234 us.) 
+ 
+ ENC. v. NTRU 3 Ronda (SW) 	 ... 	 ( 14421 us.) 
+ ENC. v. NTRU Encrypt (SW) 	 ... 	 ( 26916 us.) 
+ ENC. v. NTRU HARDWARE (HW) 	 ... 	 (  2360 us.) 
+ 
+ DEC. v. NTRU 3 Ronda (SW) 	 ... 	 ( 44940 us.) 
+ 
+ ACELERACION Mult.:  6.110593 
+ ACELERACION ENC:  6.110593 
+ 
+ FALLOS_SW: 0 
+ FALLOS_HW: 0 
+ FALLOS_CRYPTO: 0 
+ 
