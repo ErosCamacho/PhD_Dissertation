@@ -1,2 +1,0 @@
-ID 	 MULT(SW) 	 MULT(HW) 	 ACEL. MULT. 	 ENC(SW) 	 ENC(HW) 	 ACEL. ENC. 
-1 	  14312 	   2813 	 5.087807 	  14426 	   2939 	 4.908472 
