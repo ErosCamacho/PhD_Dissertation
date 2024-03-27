@@ -5,5 +5,3 @@ This is the repository of the PhD dissertation defended on March 13th, 2024 enti
 
 It is composed by:
 - PhD Dissertation in PDF format.
-- Presentation used during the defense. 
-
